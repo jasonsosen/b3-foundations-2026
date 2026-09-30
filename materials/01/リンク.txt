@@ -1,0 +1,7 @@
+Colab（GitHub版）
+https://colab.research.google.com/github/jasonsosen/b3-foundations-2026/blob/main/materials/01/notebook.ipynb
+
+元のDrive版
+https://colab.research.google.com/drive/1ZdDFFNfeDRK4dEzME4E3wEAp5zHElpoN
+参照用Notebook
+https://colab.research.google.com/github/jasonsosen/b3-foundations-2026/blob/main/materials/01/python-matrix-reference.ipynb
