@@ -1,5 +1,0 @@
-Colab（GitHub版）
-https://colab.research.google.com/github/jasonsosen/b3-foundations-2026/blob/main/materials/02/notebook.ipynb
-
-元のDrive版
-https://colab.research.google.com/drive/1m3ff0OOlyYH0OrJ8MMpPL3AChTdIDqF0
