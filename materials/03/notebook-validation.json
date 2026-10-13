@@ -1,76 +1,27 @@
 {
-  "version": "v9-mujoco-step-by-step",
-  "cloud_colab_executed": true,
-  "covered_sections": [
-    "Euler",
-    "RK4",
-    "M1",
-    "M2",
-    "M3",
-    "M4",
-    "M5",
-    "M6",
-    "M7",
-    "M8",
-    "T",
-    "save_metadata",
-    "save_transitions"
-  ],
-  "pending_sections": [],
-  "coverage_complete": true,
-  "input_sha256": {
-    "student": "f042b67efa100a333a976deebc24594b112bdacf09a405f490aaecd7f2cd1d9d",
-    "instructor": "b291aeaba623d339d8eb90b6c05644ef31b067d07914b59a99c97ded94cb30dd"
-  },
-  "preserved_v8_cells": 37,
-  "student_task_cells": 13,
-  "all_cells_required": true,
-  "runs": [
-    {
-      "role": "student",
-      "scope": "full",
-      "teaching_cells": 135,
-      "code_cells": 66,
-      "errors": 0,
-      "seconds": 4.86
+  "version": "v10-split",
+  "date": "2026-10-13",
+  "independent_notebooks": true,
+  "local_validation": "PASS_LOCAL_ALL_FOUR_INDEPENDENT_NOTEBOOKS",
+  "fresh_local_kernels": 4,
+  "student_tasks_intentionally_incomplete": true,
+  "robot_repeated_flowcharts": 20,
+  "parts": {
+    "ball": {
+      "notebook": "ball.ipynb",
+      "sha256": "6a9879a35014994100159aac9058469aa3d26df261be43746f630f42a112c854",
+      "code_cells": 46,
+      "local_student_and_instructor": "PASS",
+      "cloud_colab_executed": false
     },
-    {
-      "role": "instructor",
-      "scope": "full",
-      "teaching_cells": 135,
-      "code_cells": 66,
-      "errors": 0,
-      "seconds": 13.45
+    "robot": {
+      "notebook": "two_link_robot.ipynb",
+      "sha256": "1c0b8c932e326d585dc8b721892170dcc875046231bbdb14bb2e00e35c93f7d5",
+      "code_cells": 31,
+      "local_student_and_instructor": "PASS",
+      "cloud_colab_executed": false
     }
-  ],
-  "status": "PASS_LOCAL_STUDENT_AND_INSTRUCTOR_FULL",
-  "published_student_sha256": "d336b1a269092a7239eb14ab5cdd866b37d9eed913749408f15c62e13cbdde82",
-  "local_visual_qa": {
-    "formula_and_task_layout": true,
-    "arm_target_input_cart_graphs": true,
-    "three_d_ball_arm_cart_frames": true
   },
-  "teacher_solution_published": false,
-  "cloud_validation": {
-    "date": "2026-10-13",
-    "role": "student_template",
-    "notebook_commit": "b5c7196fff7466ef21cc1bcaf0e479f1e0594e03",
-    "url": "https://colab.research.google.com/github/jasonsosen/b3-foundations-2026/blob/main/materials/03/notebook.ipynb",
-    "method": "Chrome Colab UI: restart session and run all",
-    "code_cells_executed": 66,
-    "execution_counter_first": 1,
-    "execution_counter_last": 66,
-    "execution_errors_observed": 0,
-    "mujoco": "3.3.3",
-    "rendering_backend": "osmesa",
-    "result_archive": "/content/B3_03_results_v9.zip",
-    "exercise_checks": "All 10 code gates remain false in the intentional student template; M8 column addition also pending",
-    "kernel_restarted": true,
-    "fresh_vm_provisioning_verified": false,
-    "completed_teacher_solution_cloud_tested": false,
-    "completed_teacher_solution_local_tested": true,
-    "visual_check": "M2 formula/table, short code, world height 1.2 for qpos 0.2 visible in Colab",
-    "production_pages_deployment": "success",
-    "production_raw_notebook_hash_matched": true
-  }
+  "cloud_colab_executed": false,
+  "pdf": "previous v6; use notebook for current exercises"
 }
