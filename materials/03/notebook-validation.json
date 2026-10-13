@@ -1,118 +1,54 @@
 {
-  "version": "v8-programming-joints",
-  "cloud_colab_executed": true,
+  "version": "v9-mujoco-step-by-step",
+  "cloud_colab_executed": false,
+  "covered_sections": [
+    "Euler",
+    "RK4",
+    "M1",
+    "M2",
+    "M3",
+    "M4",
+    "M5",
+    "M6",
+    "M7",
+    "M8",
+    "T",
+    "save_metadata",
+    "save_transitions"
+  ],
+  "pending_sections": [],
+  "coverage_complete": true,
+  "input_sha256": {
+    "student": "f042b67efa100a333a976deebc24594b112bdacf09a405f490aaecd7f2cd1d9d",
+    "instructor": "b291aeaba623d339d8eb90b6c05644ef31b067d07914b59a99c97ded94cb30dd"
+  },
+  "preserved_v8_cells": 37,
+  "student_task_cells": 13,
+  "all_cells_required": true,
   "runs": [
     {
       "role": "student",
-      "scope": "core",
-      "code_cells": 32,
-      "errors": 0,
-      "seconds": 3.93
-    },
-    {
-      "role": "student",
       "scope": "full",
-      "code_cells": 46,
+      "teaching_cells": 135,
+      "code_cells": 66,
       "errors": 0,
-      "seconds": 8.78
-    },
-    {
-      "role": "instructor",
-      "scope": "core",
-      "code_cells": 32,
-      "errors": 0,
-      "seconds": 4.11
+      "seconds": 4.86
     },
     {
       "role": "instructor",
       "scope": "full",
-      "code_cells": 46,
+      "teaching_cells": 135,
+      "code_cells": 66,
       "errors": 0,
-      "seconds": 9.7
+      "seconds": 13.45
     }
   ],
-  "student_core_cells": 68,
-  "prior_v7_core_cells": 109,
-  "question_count": 5,
-  "student_template_intentionally_incomplete": true,
-  "instructor_solution_published": false,
-  "source_sha256": "7b601eb2081810c36c27b4c5ddfe9fe6499c3be1018d057f3f3230dde94155ce",
-  "status": "PASS_LOCAL_STUDENT_AND_INSTRUCTOR_CORE_AND_FULL",
-  "cloud_validation": {
-    "tested_at_utc": "2026-10-13T05:28:16.197432+00:00",
-    "url": "https://colab.research.google.com/github/jasonsosen/b3-foundations-2026/blob/main/materials/03/notebook.ipynb",
-    "role": "student template",
-    "restart_session_and_run_all": true,
-    "execution_counters": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
-      20,
-      21,
-      22,
-      23,
-      24,
-      25,
-      26,
-      27,
-      28,
-      29,
-      30,
-      31,
-      32,
-      33,
-      34,
-      35,
-      36,
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44,
-      45,
-      46
-    ],
-    "code_cells": 46,
-    "visible_errors": 0,
-    "mujoco": "3.3.3",
-    "rendering": "osmesa",
-    "rk4_intentionally_incomplete": true,
-    "comparison_saved": false,
-    "joint_requirement_met": false,
-    "zip": "/content/B3_03_results_v8.zip",
-    "fresh_vm_provisioning_tested": false,
-    "instructor_solution_cloud_tested": false
+  "status": "PASS_LOCAL_STUDENT_AND_INSTRUCTOR_FULL",
+  "published_student_sha256": "d336b1a269092a7239eb14ab5cdd866b37d9eed913749408f15c62e13cbdde82",
+  "local_visual_qa": {
+    "formula_and_task_layout": true,
+    "arm_target_input_cart_graphs": true,
+    "three_d_ball_arm_cart_frames": true
   },
-  "visual_checks": [
-    "RK4 LaTeX rendered in browser",
-    "joint table rendered in browser",
-    "instructor Euler/RK4/analytical plot inspected",
-    "joint diagnostic trajectory inspected",
-    "Colab lesson and tasks displayed"
-  ],
-  "production_checks": {
-    "pages_deployment": "success",
-    "live_page_version": "v8",
-    "live_notebook_sha256_matches": true,
-    "student_notebook_commit": "b31ad1c4376773c244f2fcc583a0f9935ebb6056"
-  }
+  "teacher_solution_published": false
 }
