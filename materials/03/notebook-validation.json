@@ -1,6 +1,6 @@
 {
   "version": "v9-mujoco-step-by-step",
-  "cloud_colab_executed": false,
+  "cloud_colab_executed": true,
   "covered_sections": [
     "Euler",
     "RK4",
@@ -50,5 +50,27 @@
     "arm_target_input_cart_graphs": true,
     "three_d_ball_arm_cart_frames": true
   },
-  "teacher_solution_published": false
+  "teacher_solution_published": false,
+  "cloud_validation": {
+    "date": "2026-10-13",
+    "role": "student_template",
+    "notebook_commit": "b5c7196fff7466ef21cc1bcaf0e479f1e0594e03",
+    "url": "https://colab.research.google.com/github/jasonsosen/b3-foundations-2026/blob/main/materials/03/notebook.ipynb",
+    "method": "Chrome Colab UI: restart session and run all",
+    "code_cells_executed": 66,
+    "execution_counter_first": 1,
+    "execution_counter_last": 66,
+    "execution_errors_observed": 0,
+    "mujoco": "3.3.3",
+    "rendering_backend": "osmesa",
+    "result_archive": "/content/B3_03_results_v9.zip",
+    "exercise_checks": "All 10 code gates remain false in the intentional student template; M8 column addition also pending",
+    "kernel_restarted": true,
+    "fresh_vm_provisioning_verified": false,
+    "completed_teacher_solution_cloud_tested": false,
+    "completed_teacher_solution_local_tested": true,
+    "visual_check": "M2 formula/table, short code, world height 1.2 for qpos 0.2 visible in Colab",
+    "production_pages_deployment": "success",
+    "production_raw_notebook_hash_matched": true
+  }
 }
