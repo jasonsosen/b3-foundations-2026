@@ -1,6 +1,6 @@
 {
   "version": "v7-ball-stepwise",
-  "cloud_colab_executed": false,
+  "cloud_colab_executed": true,
   "runs": [
     {
       "mode": "core",
@@ -20,5 +20,33 @@
   "core_visible_code_max_lines": 8,
   "question_count": 13,
   "source_sha256": "0af7e1aa04571978696f64c895560e6eeb5acf249f2ebfd0cf7dbdc98ad489fa",
-  "status": "PASS_LOCAL_CORE_AND_FULL"
+  "status": "PASS_LOCAL_AND_COLAB",
+  "cloud": {
+    "date": "2026-10-13",
+    "notebook_commit": "06c66ae",
+    "action": "Restart session and run all",
+    "fresh_vm_provisioning_tested": false,
+    "executed_code_cells": 60,
+    "execution_sequence": "1 through 60",
+    "error_messages": 0,
+    "mujoco": "3.3.3",
+    "rendering": "osmesa",
+    "zip": "/content/B3_03_results_v7.zip",
+    "visual_checks": [
+      "Short code and RK4 equations rendered",
+      "3D falling ball rendered",
+      "Last-frame button showed ball on floor",
+      "Contact onset and resting-state tables rendered"
+    ],
+    "url": "https://colab.research.google.com/github/jasonsosen/b3-foundations-2026/blob/main/materials/03/notebook.ipynb"
+  },
+  "pedagogy_review": {
+    "reviewer": "quality_reviewer",
+    "scope": "ball sequence, old optional dependencies",
+    "resolved": [
+      "Rebuild all related XML strings after edits",
+      "Observation questions do not request retroactive predictions",
+      "Forced state stop distinguished from rendering"
+    ]
+  }
 }
