@@ -1,52 +1,41 @@
 {
-  "version": "v7-ball-stepwise",
-  "cloud_colab_executed": true,
+  "version": "v8-programming-joints",
+  "cloud_colab_executed": false,
   "runs": [
     {
-      "mode": "core",
-      "seconds": 4.59,
-      "cells": 109,
-      "code_cells": 46,
-      "errors": 0
+      "role": "student",
+      "scope": "core",
+      "code_cells": 32,
+      "errors": 0,
+      "seconds": 3.93
     },
     {
-      "mode": "full",
-      "seconds": 9.32,
-      "cells": 143,
-      "code_cells": 60,
-      "errors": 0
+      "role": "student",
+      "scope": "full",
+      "code_cells": 46,
+      "errors": 0,
+      "seconds": 8.78
+    },
+    {
+      "role": "instructor",
+      "scope": "core",
+      "code_cells": 32,
+      "errors": 0,
+      "seconds": 4.11
+    },
+    {
+      "role": "instructor",
+      "scope": "full",
+      "code_cells": 46,
+      "errors": 0,
+      "seconds": 9.7
     }
   ],
-  "core_visible_code_max_lines": 8,
-  "question_count": 13,
-  "source_sha256": "0af7e1aa04571978696f64c895560e6eeb5acf249f2ebfd0cf7dbdc98ad489fa",
-  "status": "PASS_LOCAL_AND_COLAB",
-  "cloud": {
-    "date": "2026-10-13",
-    "notebook_commit": "06c66ae",
-    "action": "Restart session and run all",
-    "fresh_vm_provisioning_tested": false,
-    "executed_code_cells": 60,
-    "execution_sequence": "1 through 60",
-    "error_messages": 0,
-    "mujoco": "3.3.3",
-    "rendering": "osmesa",
-    "zip": "/content/B3_03_results_v7.zip",
-    "visual_checks": [
-      "Short code and RK4 equations rendered",
-      "3D falling ball rendered",
-      "Last-frame button showed ball on floor",
-      "Contact onset and resting-state tables rendered"
-    ],
-    "url": "https://colab.research.google.com/github/jasonsosen/b3-foundations-2026/blob/main/materials/03/notebook.ipynb"
-  },
-  "pedagogy_review": {
-    "reviewer": "quality_reviewer",
-    "scope": "ball sequence, old optional dependencies",
-    "resolved": [
-      "Rebuild all related XML strings after edits",
-      "Observation questions do not request retroactive predictions",
-      "Forced state stop distinguished from rendering"
-    ]
-  }
+  "student_core_cells": 68,
+  "prior_v7_core_cells": 109,
+  "question_count": 5,
+  "student_template_intentionally_incomplete": true,
+  "instructor_solution_published": false,
+  "source_sha256": "7b601eb2081810c36c27b4c5ddfe9fe6499c3be1018d057f3f3230dde94155ce",
+  "status": "PASS_LOCAL_STUDENT_AND_INSTRUCTOR_CORE_AND_FULL"
 }
