@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="第4回：台車・振子のシミュレーションをゼロから作り、支点を固定した振子のデータから減衰を推定します。">
+<title>第4回 台車・振子モデルと振子の同定｜曹研究室 B3基礎教育</title>
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../assets/styles.css">
+<style>
+.lesson04 .notebook-section{margin-top:28px;padding-top:24px;border-top:1px solid var(--line)}
+.lesson04 h2{font-size:22px;margin-bottom:12px}.lesson04 p{margin:12px 0;line-height:1.9}
+.lesson04 .button.colab{background:#b91c1c;border:1px solid #b91c1c;color:#fff}
+.lesson04 .button.colab:hover{background:#991b1b;border-color:#991b1b}
+.lesson04 .material-links{display:flex;flex-wrap:wrap;gap:12px 24px;font-size:14px}
+.lesson04 .colab-note{margin-top:20px}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">本文へ移動</a>
+<header class="site-header"><a class="brand" href="../../"><span class="brand-mark" aria-hidden="true">曹</span><span>曹研究室<span class="brand-sub">2026年度 / B3基礎教育</span></span></a><a class="all-lessons" href="../../">授業一覧</a></header>
+<div class="lesson-layout">
+<aside class="course-nav"><p>授業一覧</p><nav aria-label="各回の資料"><ol><li><a href="../01/"><span>第1回</span><span class="nav-status">資料</span></a></li><li><a href="../02/"><span>第2回</span><span class="nav-status">資料</span></a></li><li><a href="../03/"><span>第3回</span><span class="nav-status">資料</span></a></li><li><a href="../04/" aria-current="page"><span>第4回</span><span class="nav-status">資料</span></a></li><li class="nav-pending"><span>第5回</span><span class="nav-status">工事中</span></li><li class="nav-pending"><span>第6回</span><span class="nav-status">工事中</span></li><li class="nav-pending"><span>第7回</span><span class="nav-status">工事中</span></li><li class="nav-pending"><span>第8回</span><span class="nav-status">工事中</span></li><li class="nav-pending"><span>第9回</span><span class="nav-status">工事中</span></li><li class="nav-pending"><span>第10回</span><span class="nav-status">工事中</span></li><li class="nav-pending"><span>第11回</span><span class="nav-status">工事中</span></li><li class="nav-pending"><span>第12回</span><span class="nav-status">工事中</span></li><li class="nav-pending"><span>第13回</span><span class="nav-status">工事中</span></li><li class="nav-pending"><span>第14回</span><span class="nav-status">工事中</span></li><li class="nav-pending"><span>第15回</span><span class="nav-status">工事中</span></li></ol></nav></aside>
+<main id="main" class="lesson-page lesson04">
+<nav class="breadcrumb" aria-label="パンくず"><a href="../../">B3基礎教育</a><span aria-hidden="true">/</span><span>第4回</span></nav>
+<header class="lesson-heading"><p class="course-label">第4回 / 180分</p><h1>台車・振子モデルと振子の同定</h1>
+<p>今回は2冊のNotebookで、モデルを自分で作る練習と、記録した運動からモデルのパラメータを求める練習に取り組みます。</p></header>
+<section class="notebook-section" aria-labelledby="model-title">
+<h2 id="model-title">A｜台車・振子のシミュレーションをゼロから作る</h2>
+<p>台車と振子の構造・関節・初期条件を考え、MuJoCoのモデルと実行処理を自分で組み立てます。環境準備・保存・作図のコードは用意しています。これまでの授業を参考に、XMLとMuJoCoの処理を書き、動かして確かめます。</p>
+<div class="pdf-actions"><a class="button colab" href="https://colab.research.google.com/drive/1zJkIM1h1L9vUq7i0Lh4q-iRpZC7evbGe" target="_blank" rel="noopener">A｜Colabで開く ↗</a></div>
+<div class="material-links"><a href="../../materials/04/model.html">A｜HTMLで読む</a><a href="../../materials/04/model.ipynb" download="B3_04A_Model.ipynb">A｜Notebookをダウンロード</a></div>
+</section>
+<section class="notebook-section" aria-labelledby="identification-title">
+<h2 id="identification-title">B｜振子の運動からパラメータを求める</h2>
+<p>配布プログラムで振子の運動を記録し、運動方程式と最小二乗法から慣性・粘性抵抗を求めます。コードを実行し、式と計算の意味を理解するための教材です。</p>
+<div class="pdf-actions"><a class="button colab" href="https://colab.research.google.com/drive/1qgVpKimMMXmOCDh3XeUuEIe2Cxim4zfc" target="_blank" rel="noopener">B｜Colabで開く ↗</a></div>
+<div class="material-links"><a href="../../materials/04/identification.html">B｜HTMLで読む</a><a href="../../materials/04/identification.ipynb" download="B3_04B_Identification.ipynb">B｜Notebookをダウンロード</a></div>
+</section>
+<p class="colab-note">Colabでは「ファイル」→「ドライブにコピーを保存」で自分のNotebookを作り、実行・回答を保存してください。Colabで開けない場合はNotebookをダウンロードし、Colabへアップロードしてください。読むだけの場合は「HTMLで読む」を使えます。</p>
+<section class="notebook-section" aria-labelledby="assignment-title">
+<h2 id="assignment-title">次回の課題｜個人発表</h2>
+<p>各自で「システム同定をどう理解したか」を説明するPPTを準備してください。授業資料・Web・AIを参考にして構いません。自分の言葉で説明しましょう。</p>
+</section>
+<nav class="lesson-bottom" aria-label="授業の移動"><a href="../03/">← 第3回へ</a><a href="../../">授業一覧に戻る</a></nav>
+</main></div>
+<footer class="site-footer"><span>曹研究室 · B3基礎教育</span><span>全15回 / 各180分</span></footer>
+</body></html>
